@@ -14,6 +14,11 @@ import base64
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/')
+def home():
+    return "Privacy Mining Backend is Running Successfully 🚀"
+
+
 # Configuration
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'txt', 'csv', 'json'}
