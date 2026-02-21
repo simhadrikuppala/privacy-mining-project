@@ -9,7 +9,7 @@ export default function App() {
   const [encryptedData, setEncryptedData] = useState(null);
   const [miningResults, setMiningResults] = useState(null);
   const [loading, setLoading] = useState(false);
-  const API_URL = 'http://localhost:5000';
+  const API_URL = 'https://privacy-mining-project.onrender.com/upload';
 
   // Show login if no user
   if (!user) {
