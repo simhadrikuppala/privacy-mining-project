@@ -44,8 +44,10 @@ export default function Auth({ onLogin }) {
     }
 
     try {
+      const API_URL = "https://privacy-mining-project.onrender.com";
+
       const endpoint = isLogin ? '/api/login' : '/api/register';
-      const response = await fetch(`http://localhost:5000${endpoint}`, {
+const response = await fetch(`${API_URL}${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
