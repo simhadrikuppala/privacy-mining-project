@@ -83,7 +83,7 @@ const response = await fetch(`${API_URL}${endpoint}`, {
         <div className="text-center mb-8">
           <Shield className="w-16 h-16 text-indigo-600 mx-auto mb-4" />
           <h1 className="text-3xl font-bold text-gray-800 mb-2">
-            Privacy-Preserving Data Mining
+            Privacy-Preserving Data Mining using Holographic Encryption
           </h1>
           <p className="text-gray-600">
             {isLogin ? 'Login to your account' : 'Create a new account'}
