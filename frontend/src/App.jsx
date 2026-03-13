@@ -185,12 +185,12 @@ export default function App() {
             </h1>
           </div>
           <p className="text-gray-600 text-lg">
-            Using Holographic Encryption Technology (Python Backend)
+            Using Holographic Encryption Technology 
           </p>
           <div className="mt-4">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
               <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
-              Backend: Python Flask + NumPy
+              
             </span>
           </div>
         </header>
